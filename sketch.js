@@ -24,11 +24,10 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 	dustbinObject = new dustbin(1200,650);
-    dustbinObject = addImage("dustbinGreen.png");
-
+    
 
 	paperObject = new paper(200,450,40);
-	paperObject = addImage("paperImage");
+	
 
 	groundObject = new ground(width/2,670,width,20);
 	

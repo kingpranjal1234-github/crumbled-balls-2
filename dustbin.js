@@ -20,7 +20,7 @@ class dustbin
 		World.add(world, this.leftWallBody)
 		World.add(world, this.rightWallBody);
 
-		
+		this.image=loadImage("dustbingreen.png");
 		
 	}
 	display()
